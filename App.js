@@ -4,11 +4,10 @@ import CategoriesScreen from "./screens/CategoriesScreen";
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Meals App</Text>
+    <>
       <CategoriesScreen />
       <StatusBar style="auto" />
-    </View>
+    </>
   );
 }
 
